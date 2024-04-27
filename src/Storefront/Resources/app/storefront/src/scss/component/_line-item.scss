@@ -170,8 +170,8 @@
 .line-item-total-price,
 .line-item-tax-price,
 .line-item-remove {
-    padding-right: $spacer-sm / 2;
-    padding-left: $spacer-sm / 2;
+    padding-right: calc(#{$spacer-sm} / 2);
+    padding-left: calc(#{$spacer-sm} / 2);
 }
 
 .line-item-discount-icon,

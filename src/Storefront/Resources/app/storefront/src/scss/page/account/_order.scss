@@ -316,7 +316,7 @@
     }
 
     .order-table-header-context-menu-wrapper {
-        top: $spacer / 2;
+        top: calc(#{$spacer} / 2);
         right: $spacer;
     }
 

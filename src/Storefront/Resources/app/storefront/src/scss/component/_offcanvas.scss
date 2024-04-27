@@ -75,8 +75,8 @@ The sliding direction can be left or right.
     // reaches the width of the OffCanvas itself, so it does not cover the whole viewport.
     &.offcanvas-end,
     &.offcanvas-start {
-        @media (max-width: $offcanvas-horizontal-width + ($grid-gutter-width / 2)) {
-            width: calc(100% - #{$grid-gutter-width / 2});
+        @media (max-width:  calc(#{$offcanvas-horizontal-width} + (#{$grid-gutter-width} / 2))) {
+            width: calc(100% - #{$grid-gutter-width} / 2);
         }
     }
 }

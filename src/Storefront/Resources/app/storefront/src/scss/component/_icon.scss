@@ -95,7 +95,7 @@ Credit: https://github.com/FortAwesome/Font-Awesome
 }
 
 .icon-lg {
-    @include sw-icon-size($icon-base-size / 3 * 4);
+    @include sw-icon-size(calc(#{$icon-base-size} / 3 * 4));
 }
 
 // 33% bigger icon

@@ -20,8 +20,8 @@
 
 .order-detail-content-header,
 .order-item-detail-footer {
-    padding-left: $order-grid-gutter-width / 2;
-    padding-right: $order-grid-gutter-width / 2;
+    padding-left: calc(#{$order-grid-gutter-width} / 2);
+    padding-right: calc(#{$order-grid-gutter-width} / 2);
 }
 
 .order-detail-content-body {

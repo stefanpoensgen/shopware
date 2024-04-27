@@ -145,8 +145,8 @@ $table-striped-bg: #f9f9f9 !default;
 $custom-switch-indicator-border-radius: 0.5rem;
 
 // OffCanvas
-$offcanvas-padding-y: $grid-gutter-width / 2 !default;
-$offcanvas-padding-x: $grid-gutter-width / 2 !default;
+$offcanvas-padding-y: calc(#{$grid-gutter-width} / 2) !default;
+$offcanvas-padding-x: calc(#{$grid-gutter-width} / 2) !default;
 $offcanvas-border-width: 0 !default;
 $offcanvas-border-color: transparent !default;
 $offcanvas-backdrop-opacity: 1 !default;
