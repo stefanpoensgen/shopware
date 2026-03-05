@@ -501,6 +501,7 @@ const mergedCoreConfig = merge([
                         overlay: {
                             warnings: false,
                             errors: true,
+                            runtimeErrors: process.env.DISABLE_DEV_SERVER_OVERLAY_RUNTIME_ERRORS !== '1',
                         },
                     },
                     headers: {
